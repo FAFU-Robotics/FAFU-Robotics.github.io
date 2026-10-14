@@ -1,8 +1,8 @@
-# 实验室公开信息。改这里后，首页和招生页会一起更新。
-name: FAFU Robotics
-name_zh: 福建农林大学机器人团队
-pi:
-email:
+# 团队公开信息。改这里后，首页和招生页会一起更新。
+name: 大数据科学与应用团队
+name_zh: 大数据科学与应用团队
+contact: 陈昊
+email: chenhaox@outlook.com
 address:
 institution: 福建农林大学
-college:
+affiliation: 数字福建农林大数据研究所、农林人工智能研究院

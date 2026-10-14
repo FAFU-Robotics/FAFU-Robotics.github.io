@@ -5,7 +5,13 @@ title: 成员
 description: 团队成员
 nav: true
 nav_order: 4
-profiles: []
+
+profiles:
+  - align: right
+    content: people_chenhao.md
+    more_info: >
+      <p>副教授</p>
+      <p>智能机器人方向</p>
 ---
 
-成员名单还在整理。确定后会在这里放姓名、身份、研究方向、邮箱和照片。
+其他成员的介绍会陆续补上。

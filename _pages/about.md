@@ -2,15 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: 福建农林大学 · 机器人团队
+subtitle: 福建农林大学 · 数字福建农林大数据研究所 · 农林人工智能研究院
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false
   more_info: >
-    <p>福建农林大学</p>
-    <p>福建农林大学机器人团队</p>
+    <p>陈昊 · 副教授</p>
+    <p>智能机器人方向</p>
+    <p><a href="/people/">成员介绍</a></p>
     <p><a href="https://github.com/FAFU-Robotics">GitHub</a></p>
 
 selected_papers: false
@@ -25,15 +24,20 @@ latest_posts:
   enabled: false
 ---
 
-我们是 **{{ site.data.lab.name_zh }}**（{{ site.data.lab.name }}）。站点用来放正在做的机器人项目、成员和招生信息。
+**{{ site.data.lab.name_zh }}**依托{{ site.data.lab.affiliation }}，聚焦农林人工智能、计算机视觉、作物表型分析及智能机器人。团队拥有国家级及省级高层次人才多名，近年来承担科研项目 30 余项，发表高水平论文 80 余篇。
 
-### 正在做的项目
+陈昊副教授是团队智能机器人方向的骨干成员，重点做智能装配、机器人路径规划及实验室自动化，推动机器人技术与农林人工智能的交叉。相关成果发表于 IJRR、IEEE T-ASE 等期刊，并指导学生团队获得第十九届「挑战杯」全国大学生课外学术科技作品竞赛「人工智能+」专项赛特等奖。
 
-- [移动小车]({{ '/projects/mobile-robot/' | relative_url }})：Bunker Mini 2.0 搭配 Airy 激光雷达，在 Jetson 上做建图、定位和绕障。演示视频放在项目页里。
-- 机械臂：自研机械臂的控制软件，代码在 [FAFU_station](https://github.com/FAFU-Robotics/FAFU_station) 和 [fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)。
+### 正在做的工作
 
-更多项目见 [项目]({{ '/projects/' | relative_url }})。
+- [工业视觉检测软硬件]({{ '/projects/industrial-vision/' | relative_url }})
+- [机器人物体操作算法]({{ '/projects/robot-manipulation/' | relative_url }})（装配方向）
+- [具身智能机械臂]({{ '/projects/embodied-arm/' | relative_url }})
+- [采摘机器人]({{ '/projects/harvesting-robot/' | relative_url }})
+- [机械臂智能体]({{ '/projects/arm-agent/' | relative_url }})
 
-### 加入团队
+移动小车的演示页在 [这里]({{ '/projects/mobile-robot/' | relative_url }})。项目汇总见 [项目]({{ '/projects/' | relative_url }})。
 
-想做移动机器人、激光感知、导航或机械臂的同学，先看 [加入]({{ '/join/' | relative_url }})。
+### 加入
+
+想参与这些方向的同学，请看 [加入]({{ '/join/' | relative_url }})，邮件联系陈昊。

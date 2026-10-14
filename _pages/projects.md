@@ -5,7 +5,7 @@ permalink: /projects/
 description: 团队当前项目
 nav: true
 nav_order: 2
-display_categories: [移动机器人]
+display_categories: [当前工作]
 horizontal: false
 ---
 

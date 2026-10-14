@@ -26,11 +26,10 @@ layout: page
           {% if profile.content %}
             {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
             {{ profile_content | markdownify }}
-          {% else %}
-            {{ content }}
           {% endif %}
         </div>
       {% endfor %}
+      {{ content }}
     {% else %}
       {{ content }}
     {% endif %}

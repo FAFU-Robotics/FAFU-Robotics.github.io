@@ -1,6 +1,6 @@
-# FAFU Robotics
+# 大数据科学与应用团队
 
-福建农林大学机器人团队主页。运行时来自 [al-folio](https://github.com/alshedivat/al-folio)，本仓库只保留课题组会改的内容。
+福建农林大学大数据科学与应用团队主页，智能机器人方向由陈昊维护。运行时来自 [al-folio](https://github.com/alshedivat/al-folio)，本仓库只保留课题组会改的内容。
 
 导航：**项目 · 论文 · 成员 · 新闻 · 加入**
 

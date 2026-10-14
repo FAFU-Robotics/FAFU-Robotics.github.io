@@ -3,8 +3,8 @@ layout: page
 title: 移动小车
 description: 激光雷达建图、定位与自主绕障
 img: assets/img/mobile-robot.svg
-importance: 1
-category: 移动机器人
+importance: 6
+category: 当前工作
 permalink: /projects/mobile-robot/
 ---
 

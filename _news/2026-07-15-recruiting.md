@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-欢迎对移动机器人、激光感知、导航或机械臂感兴趣的同学看 [加入]({{ '/join/' | relative_url }})。
+智能机器人方向欢迎对工业视觉、装配操作、机械臂、采摘机器人或具身智能感兴趣的同学，详见 [加入]({{ '/join/' | relative_url }})。

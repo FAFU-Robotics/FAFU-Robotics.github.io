@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: FAFU Robotics # 浏览器标题；留空则使用下面的姓名
-first_name: FAFU
+title: 大数据科学与应用团队 # 浏览器标题；留空则使用下面的姓名
+first_name: 大数据科学与应用团队
 middle_name:
-last_name: Robotics
+last_name:
 contact_note: >
-  招生与合作请发邮件。公开邮箱确定后会显示在首页和招生页。
+  招生与合作请发邮件，邮箱写在「加入」页。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  福建农林大学机器人团队（FAFU Robotics）。展示移动机器人、机械臂等项目、成员与招生信息。
+  福建农林大学大数据科学与应用团队。依托数字福建农林大数据研究所和农林人工智能研究院，开展农林人工智能、计算机视觉、作物表型与智能机器人研究。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: FAFU Robotics, 福建农林大学, mobile robot, lidar, robotics
+keywords: 大数据科学与应用团队, 福建农林大学, 智能机器人, 计算机视觉, 农林人工智能
 lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -338,9 +338,9 @@ display_categories: []
 # -----------------------------------------------------------------------------
 
 scholar:
-  # 录入论文后改成要高亮的作者姓和名，例如 last_name: [Chen]
-  last_name: []
-  first_name: []
+  # 论文列表里高亮陈昊
+  last_name: [Chen]
+  first_name: [Hao, H.]
 
   style: apa
   locale: en
