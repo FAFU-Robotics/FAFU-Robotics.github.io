@@ -14,6 +14,9 @@ permalink: /projects/mobile-robot/
   .harvest-real { margin: 1.25rem 0 1.5rem; }
   .harvest-real img { width: min(100%, 640px); height: auto; display: block; }
   .harvest-real figcaption { margin-top: 0.45rem; font-size: 0.95rem; }
+  .harvest-poster { margin: 0 0 1.5rem; }
+  .harvest-poster img { width: min(100%, 960px); height: auto; display: block; }
+  .harvest-poster figcaption { margin-top: 0.45rem; font-size: 0.95rem; }
 </style>
 
 <div class="pickmate-logos">
@@ -26,9 +29,16 @@ permalink: /projects/mobile-robot/
 
 机器臂使用的是自主研发的 6 轴具身智能机器臂，项目页见 [具身智能机器臂]({{ '/projects/embodied-arm/' | relative_url }})，公开代码在 [FAFU_station](https://github.com/FAFU-Robotics/FAFU_station) 和 [fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)。
 
+采摘系统使用的是 wrs_agent_os 与 WRS，对应仓库为 [WRSAgentOS](https://github.com/chenhaox/WRSAgentOS) 和 [WRS2](https://github.com/chenhaox/WRS2)。
+
 <figure class="harvest-real">
   <img src="{{ '/assets/img/harvest-robot-real.png' | relative_url }}" alt="采摘机器人真实样机，履带底盘与绿色六轴机械臂">
   <figcaption>真实样机</figcaption>
+</figure>
+
+<figure class="harvest-poster">
+  <img src="{{ '/assets/img/harvest-platform.png' | relative_url }}" alt="果园自主采摘机器人，柑橘自主采摘研发样机">
+  <figcaption>果园自主采摘机器人 / 柑橘自主采摘研发样机</figcaption>
 </figure>
 
 ### 平台
