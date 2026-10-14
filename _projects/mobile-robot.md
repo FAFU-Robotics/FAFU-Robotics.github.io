@@ -15,7 +15,6 @@ permalink: /projects/mobile-robot/
 
 <div class="pickmate-logos">
   <img src="{{ '/assets/img/pickmate-zh.png' | relative_url }}" alt="智能采摘机器人 福农采摘伙伴">
-  <img src="{{ '/assets/img/pickmate-en.png' | relative_url }}" alt="FAFU PickMate">
 </div>
 
 采摘机器人的名字是**福农采摘伙伴**（FAFU PickMate），面向果园等农林场景。当前平台是一辆移动小车，用来把激光感知、定位建图、路径规划和底盘控制接到同一辆车上。
