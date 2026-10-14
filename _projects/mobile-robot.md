@@ -11,6 +11,9 @@ permalink: /projects/mobile-robot/
 <style>
   .pickmate-logos { display: grid; gap: 1.25rem; margin: 0 0 1.5rem; }
   .pickmate-logos img { width: min(100%, 720px); height: auto; }
+  .harvest-real { margin: 1.25rem 0 1.5rem; }
+  .harvest-real img { width: min(100%, 640px); height: auto; display: block; }
+  .harvest-real figcaption { margin-top: 0.45rem; font-size: 0.95rem; }
 </style>
 
 <div class="pickmate-logos">
@@ -21,11 +24,19 @@ permalink: /projects/mobile-robot/
 
 底盘是 AgileX Bunker Mini 2.0，激光雷达是 RoboSense Airy，计算在 Jetson 工控机上，软件基于 ROS 2 Humble。
 
+机器臂使用的是自主研发的 6 轴具身智能机器臂，项目页见 [具身智能机器臂]({{ '/projects/embodied-arm/' | relative_url }})，公开代码在 [FAFU_station](https://github.com/FAFU-Robotics/FAFU_station) 和 [fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)。
+
+<figure class="harvest-real">
+  <img src="{{ '/assets/img/harvest-robot-real.png' | relative_url }}" alt="采摘机器人真实样机，履带底盘与绿色六轴机械臂">
+  <figcaption>真实样机</figcaption>
+</figure>
+
 ### 平台
 
 | 部分 | 配置 |
 | --- | --- |
 | 移动底盘 | AgileX Bunker Mini 2.0 |
+| 机器臂 | 自主研发的 6 轴[具身智能机器臂]({{ '/projects/embodied-arm/' | relative_url }}) |
 | 激光雷达 | RoboSense Airy |
 | 车载计算 | NVIDIA Jetson |
 | 软件 | ROS 2 Humble |
