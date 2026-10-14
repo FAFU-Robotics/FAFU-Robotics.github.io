@@ -104,6 +104,10 @@ nav_order: 4
         <dd>张熙、王溢宁、罗锦皓、丘滨辉、康泽坤</dd>
       </div>
     </dl>
+    <figure class="comp-photo">
+      <img src="{{ '/assets/img/competition-challenge-cup.png' | relative_url }}" alt="轻量级双臂具身操作系统：RDK-S100 端侧 VLA 模型，学生在第十九届「挑战杯」5 号讲台前">
+      <figcaption>第十九届「挑战杯」</figcaption>
+    </figure>
   </article>
 
   <article class="comp-card">
