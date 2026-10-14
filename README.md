@@ -1,8 +1,8 @@
-# FAFU 机器人感知与操作研究组
+# FAFU 机器人感知与操作课题组
 
-陈昊副教授的研究组主页（Robotic Perception and Manipulation），隶属于福建农林大学大数据科学与应用团队。运行时来自 [al-folio](https://github.com/alshedivat/al-folio)，本仓库只保留课题组会改的内容。
+陈昊副教授的课题组主页（Robotic Perception and Manipulation），隶属于福建农林大学大数据科学与应用团队。运行时来自 [al-folio](https://github.com/alshedivat/al-folio)，本仓库只保留课题组会改的内容。
 
-导航：**项目 · 论文 · 成员 · 新闻 · 加入**
+导航：**项目 · 论文 · 竞赛 · 成员 · 新闻 · 加入**
 
 ## 目录
 

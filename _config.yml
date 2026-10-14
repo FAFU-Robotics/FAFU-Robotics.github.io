@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: FAFU 机器人感知与操作研究组 # 浏览器标题；留空则使用下面的姓名
-first_name: FAFU 机器人感知与操作研究组
+title: FAFU 机器人感知与操作课题组 # 浏览器标题；留空则使用下面的姓名
+first_name: FAFU 机器人感知与操作课题组
 middle_name:
 last_name:
 contact_note: >
   招生与合作请发邮件，邮箱写在「加入」页。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  陈昊副教授的 FAFU 机器人感知与操作研究组（Robotic Perception and Manipulation），隶属于福建农林大学大数据科学与应用团队。
+  陈昊副教授的 FAFU 机器人感知与操作课题组（Robotic Perception and Manipulation），隶属于福建农林大学大数据科学与应用团队。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: FAFU 机器人感知与操作研究组, Robotic Perception and Manipulation, 陈昊, 福建农林大学, 大数据科学与应用团队
+keywords: FAFU 机器人感知与操作课题组, Robotic Perception and Manipulation, 陈昊, 福建农林大学, 大数据科学与应用团队
 lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
