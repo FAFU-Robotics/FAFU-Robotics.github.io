@@ -35,7 +35,7 @@ permalink: /projects/mobile-robot/
 | 机器臂 | 自主研发的 6 轴[具身智能机器臂]({{ '/projects/embodied-arm/' | relative_url }})（[FAFU_station](https://github.com/FAFU-Robotics/FAFU_station)、[fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)） |
 | 激光雷达 | RoboSense Airy |
 | 车载计算 | NVIDIA Jetson |
-| 软件 | ROS 2 Humble、[WRSAgentOS](https://github.com/chenhaox/WRSAgentOS)、[WRS2](https://github.com/chenhaox/WRS2) |
+| 软件 | [WRSAgentOS](https://github.com/chenhaox/WRSAgentOS)、[WRS2](https://github.com/chenhaox/WRS2) |
 
 ### 演示视频
 
