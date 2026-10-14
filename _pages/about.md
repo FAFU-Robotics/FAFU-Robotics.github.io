@@ -33,10 +33,10 @@ latest_posts:
 - [工业视觉检测软硬件]({{ '/projects/industrial-vision/' | relative_url }})
 - [机器人物体操作算法]({{ '/projects/robot-manipulation/' | relative_url }})（装配方向）
 - [具身智能机械臂]({{ '/projects/embodied-arm/' | relative_url }})
-- [采摘机器人]({{ '/projects/harvesting-robot/' | relative_url }})
+- [采摘机器人]({{ '/projects/mobile-robot/' | relative_url }})
 - [机械臂智能体]({{ '/projects/arm-agent/' | relative_url }})
 
-移动小车的演示页在 [这里]({{ '/projects/mobile-robot/' | relative_url }})。项目汇总见 [项目]({{ '/projects/' | relative_url }})。
+项目汇总见 [项目]({{ '/projects/' | relative_url }})。
 
 ### 加入
 

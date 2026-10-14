@@ -10,14 +10,14 @@
 _config.yml              站点名、网址、功能开关
 _data/lab.yml            团队名称、负责人、邮箱、地址
 _data/socials.yml        邮箱 / Scholar / GitHub 图标
-_data/mobile_robot.yml   移动小车演示视频
+_data/mobile_robot.yml   采摘机器人演示视频
 _pages/about.md          首页
 _pages/projects.md        项目列表
 _pages/publications.md   论文页
 _pages/profiles.md        成员页
 _pages/news.md           新闻页
 _pages/join.md           招生页
-_projects/               每个项目一篇，移动小车是 mobile-robot.md
+_projects/               每个项目一篇。采摘机器人页面是 mobile-robot.md，地址 /projects/mobile-robot/
 _bibliography/papers.bib 论文（BibTeX）
 _news/                   新闻（按日期命名）
 assets/img/              头像和项目配图
@@ -30,7 +30,7 @@ assets/video/            站内演示视频（mp4 / webm）
 2. `_data/lab.yml`：实验室名、PI、邮箱、地址
 3. `_data/socials.yml`：联系方式图标
 4. `_pages/profiles.md`：成员
-5. `_projects/`：项目。移动小车页面是 `_projects/mobile-robot.md`
+5. `_projects/`：项目。采摘机器人页面是 `_projects/mobile-robot.md`，地址保持 `/projects/mobile-robot/`
 6. `_data/mobile_robot.yml`：演示视频。站内文件放 `assets/video/`，或填写 B 站 / YouTube 链接
 7. `_bibliography/papers.bib`：论文
 8. `_news/`：新闻
