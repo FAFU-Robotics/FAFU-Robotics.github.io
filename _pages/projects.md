@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 研究
+title: 项目
 permalink: /projects/
-description: 实验室当前研究方向
+description: 团队当前项目
 nav: true
 nav_order: 2
-display_categories: [机器学习, 可信AI, 智能系统]
+display_categories: [移动机器人]
 horizontal: false
 ---
 
@@ -57,7 +57,7 @@ horizontal: false
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
     {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}

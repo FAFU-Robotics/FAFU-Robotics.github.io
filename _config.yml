@@ -2,20 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Your Lab # 改成实验室名称；留空则使用下面的姓名
-first_name: Your
+title: FAFU Robotics # 浏览器标题；留空则使用下面的姓名
+first_name: FAFU
 middle_name:
-last_name: Lab
+last_name: Robotics
 contact_note: >
-  请将邮箱、地址改成实验室真实信息。招生与合作优先发邮件。
+  招生与合作请发邮件。公开邮箱确定后会显示在首页和招生页。
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Your Lab 是一个面向智能计算与交叉学科的研究组。这里展示研究方向、成员、论文与招生信息。
+  福建农林大学机器人团队（FAFU Robotics）。展示移动机器人、机械臂等项目、成员与招生信息。
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: research lab, academic website, machine learning, artificial intelligence
+keywords: FAFU Robotics, 福建农林大学, mobile robot, lidar, robotics
 lang: zh # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://fafu-robotics.github.io
@@ -338,8 +338,9 @@ display_categories: []
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Zhang]
-  first_name: [Wei, W.]
+  # 录入论文后改成要高亮的作者姓和名，例如 last_name: [Chen]
+  last_name: []
+  first_name: []
 
   style: apa
   locale: en

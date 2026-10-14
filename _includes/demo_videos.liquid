@@ -1,0 +1,67 @@
+{%- assign videos = site.data.mobile_robot.videos -%}
+<style>
+  .demo-videos { display: grid; gap: 1.75rem; margin: 1rem 0 1.5rem; }
+  .demo-video-frame {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #111;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .demo-video-frame iframe,
+  .demo-video-frame video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    object-fit: contain;
+    background: #111;
+  }
+  .demo-video-caption { margin-top: 0.55rem; }
+</style>
+{%- if videos and videos.size > 0 -%}
+<div class="demo-videos">
+  {%- for video in videos -%}
+    {%- assign src = video.src | strip -%}
+    {%- assign bare = src | split: "?" | first -%}
+    {%- assign extension = bare | split: "." | last | downcase -%}
+    {%- if src contains "://" -%}
+      {%- assign media_src = src -%}
+    {%- else -%}
+      {%- assign media_src = src | relative_url -%}
+    {%- endif -%}
+    <article class="demo-video">
+      {%- if video.title -%}
+        <h3>{{ video.title }}</h3>
+      {%- endif -%}
+      <div class="demo-video-frame">
+        {%- if extension == "mp4" or extension == "webm" or extension == "ogg" -%}
+          <video controls playsinline preload="metadata">
+            <source src="{{ media_src }}" type="video/{{ extension }}">
+          </video>
+        {%- elsif src contains "player.bilibili.com" or src contains "youtube.com/embed" or src contains "player.youku.com" -%}
+          <iframe src="{{ src }}" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+        {%- elsif src contains "bilibili.com/video/" -%}
+          {%- assign bvid = src | split: "bilibili.com/video/" | last | split: "/" | first | split: "?" | first -%}
+          <iframe src="https://player.bilibili.com/player.html?bvid={{ bvid }}&autoplay=0&high_quality=1" allowfullscreen scrolling="no" allow="fullscreen"></iframe>
+        {%- elsif src contains "youtube.com/watch" -%}
+          {%- assign yid = src | split: "v=" | last | split: "&" | first -%}
+          <iframe src="https://www.youtube.com/embed/{{ yid }}" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+        {%- elsif src contains "youtu.be/" -%}
+          {%- assign yid = src | split: "youtu.be/" | last | split: "?" | first | split: "/" | first -%}
+          <iframe src="https://www.youtube.com/embed/{{ yid }}" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+        {%- else -%}
+          <iframe src="{{ media_src }}" allowfullscreen></iframe>
+        {%- endif -%}
+      </div>
+      {%- if video.caption -%}
+        <p class="demo-video-caption">{{ video.caption }}</p>
+      {%- endif -%}
+    </article>
+  {%- endfor -%}
+</div>
+{%- else -%}
+<p>演示视频整理中，随后会放在这里。</p>
+{%- endif -%}

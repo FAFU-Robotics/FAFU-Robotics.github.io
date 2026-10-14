@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
+论文按年份倒序排列，内容来自 `_bibliography/papers.bib`。目前还没有录入公开论文。
 
 <!-- Bibsearch Feature -->
 
