@@ -19,6 +19,11 @@ nav_order: 4
 
 参赛人：张熙、王溢宁、罗锦皓、丘滨辉、康泽坤。
 
+<figure class="competition-photo">
+  <img src="{{ '/assets/img/competition-challenge-cup.png' | relative_url }}" alt="轻量级双臂具身操作系统：RDK-S100 端侧 VLA 模型，学生在第十九届「挑战杯」5 号讲台前">
+  <figcaption>第十九届「挑战杯」</figcaption>
+</figure>
+
 ## 具身智控无针注射机器人：基于视觉混合伺服的动态畜牧免疫系统
 
 赛事：第二十八届中国机器人与人工智能大赛机器人任务挑战赛，创新赛，全国二等奖，福建省一等奖。
