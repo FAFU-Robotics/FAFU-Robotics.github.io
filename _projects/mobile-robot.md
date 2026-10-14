@@ -1,14 +1,24 @@
 ---
 layout: page
 title: 采摘机器人
-description: 面向农林场景的采摘机器人，含移动底盘的建图、定位与绕障
-img: assets/img/mobile-robot.svg
+description: 福农采摘伙伴 / FAFU PickMate，面向农林场景
+img: assets/img/pickmate-zh.png
 importance: 4
 category: 当前工作
 permalink: /projects/mobile-robot/
 ---
 
-这个方向研发采摘机器人，面向果园等农林场景。当前平台是一辆移动小车，用来把激光感知、定位建图、路径规划和底盘控制接到同一辆车上。
+<style>
+  .pickmate-logos { display: grid; gap: 1.25rem; margin: 0 0 1.5rem; }
+  .pickmate-logos img { width: min(100%, 720px); height: auto; }
+</style>
+
+<div class="pickmate-logos">
+  <img src="{{ '/assets/img/pickmate-zh.png' | relative_url }}" alt="智能采摘机器人 福农采摘伙伴">
+  <img src="{{ '/assets/img/pickmate-en.png' | relative_url }}" alt="FAFU PickMate">
+</div>
+
+采摘机器人的名字是**福农采摘伙伴**（FAFU PickMate），面向果园等农林场景。当前平台是一辆移动小车，用来把激光感知、定位建图、路径规划和底盘控制接到同一辆车上。
 
 底盘是 AgileX Bunker Mini 2.0，激光雷达是 RoboSense Airy，计算在 Jetson 工控机上，软件基于 ROS 2 Humble。
 

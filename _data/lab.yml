@@ -1,8 +1,10 @@
-# 团队公开信息。改这里后，首页和招生页会一起更新。
-name: 大数据科学与应用团队
-name_zh: 大数据科学与应用团队
+# 研究组公开信息。改这里后，首页和招生页会一起更新。
+name: FAFU 机器人感知与操作研究组
+name_en: Robotic Perception and Manipulation
+name_zh: FAFU 机器人感知与操作研究组
 contact: 陈昊
 email: chenhaox@outlook.com
 address:
 institution: 福建农林大学
+parent_team: 大数据科学与应用团队
 affiliation: 数字福建农林大数据研究所、农林人工智能研究院

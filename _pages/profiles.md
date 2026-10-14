@@ -11,7 +11,7 @@ profiles:
     content: people_chenhao.md
     more_info: >
       <p>副教授</p>
-      <p>智能机器人方向</p>
+      <p>研究组负责人</p>
 ---
 
 其他成员的介绍会陆续补上。
