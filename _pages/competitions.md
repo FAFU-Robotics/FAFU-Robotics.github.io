@@ -63,6 +63,9 @@ nav_order: 4
     display: block;
     border-radius: 6px;
   }
+  .comp-photo-compact img {
+    width: min(100%, 420px);
+  }
   .comp-photo figcaption {
     margin-top: 0.45rem;
     font-size: 0.92rem;
@@ -130,6 +133,9 @@ nav_order: 4
         <dd>张熙、胡晗颖、李伟鹏</dd>
       </div>
     </dl>
+    <figure class="comp-photo comp-photo-compact">
+      <img src="{{ '/assets/img/competition-injection.png' | relative_url }}" alt="具身智控无针注射机器人的视觉-力学混合伺服演示，机器人末端对准猪只标记">
+    </figure>
   </article>
 
   <article class="comp-card">
