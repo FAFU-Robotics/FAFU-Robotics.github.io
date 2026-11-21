@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-**{{ site.data.lab.name_zh }}**（{{ site.data.lab.name_en }}）欢迎对工业视觉、机器人操作与装配、机械臂、采摘机器人或具身智能感兴趣的同学。课题组隶属于{{ site.data.lab.institution }}{{ site.data.lab.parent_team }}，依托{{ site.data.lab.affiliation }}。课题组不招实习生。名额和截止日期以回复为准。
+欢迎对工业视觉、机器人操作与装配、机械臂、采摘机器人或具身智能感兴趣的同学。课题组不招实习生。名额和截止日期以回复为准。
 
 ## 我们在找什么样的人
 

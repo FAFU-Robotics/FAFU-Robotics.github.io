@@ -3,7 +3,6 @@ layout: page
 title: 物体操作与装配
 description: 面向装配的机器人物体操作算法
 importance: 2
-category: 当前工作
 permalink: /projects/robot-manipulation/
 ---
 

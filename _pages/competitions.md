@@ -106,6 +106,30 @@ nav_order: 4
 <div class="comp-list">
   <article class="comp-card">
     <header class="comp-head">
+      <h2 class="comp-title">众调成膳——反馈闭环驱动的烹饪参数自适应调节机器人系统</h2>
+      <p class="comp-date">2026.11</p>
+    </header>
+    <dl class="comp-fields">
+      <div class="comp-row">
+        <dt>赛事名称</dt>
+        <dd>计算机与信息学院第二十六届「挑战杯」福建农林大学大学生课外学术科技作品竞赛</dd>
+      </div>
+      <div class="comp-row">
+        <dt>名次</dt>
+        <dd>一等奖</dd>
+      </div>
+      <div class="comp-row">
+        <dt>参赛人</dt>
+        <dd>谷肖天、俞泺佳、温铭德、王云凤、陈佳龙、蔡婧晴、黄子涵、李昕瑜</dd>
+      </div>
+    </dl>
+    <figure class="comp-photo">
+      <img src="{{ '/assets/img/news/2026-challenge-cup-first.jpg' | relative_url }}" alt="众调成膳项目获计算机与信息学院第二十六届挑战杯一等奖的奖状">
+    </figure>
+  </article>
+
+  <article class="comp-card">
+    <header class="comp-head">
       <h2 class="comp-title">仿真驱动的自研 LRMate 200iD 多方块拣选-堆放系统</h2>
       <p class="comp-date">2026.8</p>
     </header>

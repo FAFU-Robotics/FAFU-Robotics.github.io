@@ -3,7 +3,6 @@ layout: page
 title: 机器臂智能体
 description: 面向机械臂任务的智能体
 importance: 5
-category: 当前工作
 permalink: /projects/arm-agent/
 ---
 

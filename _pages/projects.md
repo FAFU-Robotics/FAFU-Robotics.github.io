@@ -2,14 +2,52 @@
 layout: page
 title: 项目
 permalink: /projects/
-description: 团队当前项目
+description: 课题组项目
 nav: true
 nav_order: 2
-display_categories: [当前工作]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<style>
+  .projects > .row,
+  .projects .container > .row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .projects .col {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
+  .projects a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .projects .card-text {
+    color: var(--global-text-color-light);
+  }
+  .projects .card-title {
+    font-size: 1.15rem;
+    font-weight: 650;
+    line-height: 1.35;
+    margin-bottom: 0.4rem;
+  }
+  .projects .card-img-top {
+    height: 160px;
+    object-fit: contain;
+    background: color-mix(in srgb, var(--global-text-color) 4%, var(--global-card-bg-color));
+  }
+  @media (min-width: 768px) {
+    .projects > .row,
+    .projects .container > .row {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

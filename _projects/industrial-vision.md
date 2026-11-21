@@ -3,7 +3,6 @@ layout: page
 title: 工业视觉检测
 description: 工业场景的视觉检测软件与硬件
 importance: 1
-category: 当前工作
 permalink: /projects/industrial-vision/
 ---
 

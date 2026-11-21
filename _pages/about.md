@@ -9,8 +9,6 @@ profile:
   more_info: >
     <p><a href="https://chenhao.info">陈昊</a> · 副教授</p>
     <p>课题组负责人</p>
-    <p>福建农林大学</p>
-    <p>大数据科学与应用团队</p>
     <p><a href="/people/">成员介绍</a></p>
     <p><a href="https://github.com/FAFU-Robotics">GitHub</a></p>
 
@@ -30,13 +28,53 @@ latest_posts:
 
 ### 在研课题
 
-- [工业视觉检测软硬件]({{ '/projects/industrial-vision/' | relative_url }})
-- [机器人物体操作算法]({{ '/projects/robot-manipulation/' | relative_url }})
-- [具身智能机械臂]({{ '/projects/embodied-arm/' | relative_url }})
-- [采摘机器人]({{ '/projects/mobile-robot/' | relative_url }})
-- [机械臂智能体]({{ '/projects/arm-agent/' | relative_url }})
+<style>
+  .research-grid {
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 0.25rem 0 1rem;
+  }
+  .research-grid .col {
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
+  .research-grid a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .research-grid .card-text {
+    color: var(--global-text-color-light);
+  }
+  .research-grid .card-title {
+    font-size: 1.15rem;
+    font-weight: 650;
+    line-height: 1.35;
+    margin-bottom: 0.4rem;
+  }
+  .research-grid .card-img-top {
+    height: 148px;
+    object-fit: contain;
+    background: color-mix(in srgb, var(--global-text-color) 4%, var(--global-card-bg-color));
+  }
+  @media (min-width: 768px) {
+    .research-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>
 
-项目汇总见 [项目]({{ '/projects/' | relative_url }})。
+<div class="research-grid">
+{% assign featured = "mobile-robot,embodied-arm,robot-manipulation" | split: "," %}
+{% for slug in featured %}
+  {% assign project = site.projects | where: "slug", slug | first %}
+  {% include projects.liquid %}
+{% endfor %}
+</div>
+
+其余课题见 [项目]({{ '/projects/' | relative_url }})。
 
 ### 加入
 

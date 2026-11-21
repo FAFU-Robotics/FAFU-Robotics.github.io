@@ -4,7 +4,6 @@ title: 采摘机器人
 description: 福农采摘伙伴 / FAFU PickMate，面向农林场景
 img: assets/img/pickmate-zh.png
 importance: 4
-category: 当前工作
 permalink: /projects/mobile-robot/
 ---
 
@@ -32,7 +31,7 @@ permalink: /projects/mobile-robot/
 | 部分 | 配置 |
 | --- | --- |
 | 移动底盘 | AgileX Bunker Mini 2.0 |
-| 机器臂 | 自主研发的 6 轴[具身智能机器臂]({{ '/projects/embodied-arm/' | relative_url }})（[FAFU_station](https://github.com/FAFU-Robotics/FAFU_station)、[fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)） |
+| 机器臂 | 自主研发的 6 轴[福农灵臂]({{ '/projects/embodied-arm/' | relative_url }})（[FAFU_station](https://github.com/FAFU-Robotics/FAFU_station)、[fafu_arm_sdk](https://github.com/FAFU-Robotics/fafu_arm_sdk)） |
 | 激光雷达 | RoboSense Airy |
 | 车载计算 | NVIDIA Jetson |
 | 软件 | [WRSAgentOS](https://github.com/chenhaox/WRSAgentOS)、[WRS2](https://github.com/chenhaox/WRS2) |
